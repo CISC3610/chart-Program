@@ -1,0 +1,114 @@
+.cartoonArea {
+    /* This could be done in one single declaration. See the extended sample. */
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    height: 600px;
+    outline: black 5px solid;
+}
+.cartoonContainer{
+    margin-top: 30px;
+    
+}
+body{
+    background-color: #909090;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container{
+    margin-top: 30px;
+}
+.btnDiv{
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.btn-primary {
+    font-size: 18px;
+    
+    color: #fff;
+    background-color: black;
+    border-color: black; /*set the color you want here*/
+}
+
+#fixed:hover {
+    color: black;
+    background-color: white;
+    border-color: black;/*set the color you want here*/
+    border-width: 2px;
+}
+
+#rotate-text {
+    width: 25px;
+    transform: rotate(270deg);
+    margin-top: 200px;
+    
+
+ }
+
+ .quant-text{
+    margin-left: 200px;
+    padding-bottom: 200px;
+    
+    
+ }
+ .cartoon-col{
+    margin-left: -300px;
+ }
+ h1{
+    margin-bottom: 30px;
+
+ }
+ p{
+    font-size: 20px;
+ }
+
+ @media (max-width: 1500px){
+    
+    .quant-text{
+        margin-left: 100px;
+        padding-bottom: 200px;
+        padding-right:200px;
+        
+        
+        
+     }
+    }
+
+    @media (max-width: 1600px){
+        
+        .quant-text{
+            margin-left: 100px;
+            padding-bottom: 200px;
+            padding-right:100px;
+            
+            
+            
+         }
+        }
+        @media (max-width: 1700px){
+            
+            .quant-text{
+                margin-left: 100px;
+                padding-bottom: 200px;
+                padding-right:200px;
+                
+                
+                
+             }
+            }
+     @media (max-width: 1200px){
+        
+        .quant-text{
+            margin-left: 100px;
+            padding-bottom: 200px;
+            padding-right:321px;
+            
+            
+            
+         }
+ }
